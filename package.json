@@ -1,0 +1,17 @@
+{
+  "name": "betterbot",
+  "version": "1.0.0",
+  "description": "A free, self-hosted Discord bot with useful community and moderation commands.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
